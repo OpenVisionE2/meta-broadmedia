@@ -57,7 +57,7 @@ IMAGE_CMD_ubi_append = "\
     rm -Rf ${IMAGEDIR}; \
     "
 
-MACHINE_FEATURES += "alsa 3dtv switchoff hdmicec omb blindscan-tbs textlcd videoenhancement RCA HDMI"
+MACHINE_FEATURES += "alsa 3dtv switchoff hdmicec blindscan-tbs textlcd videoenhancement RCA HDMI"
 #MACHINE_FEATURES += "bootsplash"
 
 BOOTLOGO_FILENAME = "splash.bin"
