@@ -1,2 +1,2 @@
 # meta-broadmedia
-BroadMedia BSP layer for PLi's OE
+BroadMedia BSP layer for Open Vision
