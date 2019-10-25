@@ -3,7 +3,7 @@ SECTION = "kernel"
 LICENSE = "GPLv2"
 PACKAGE_ARCH = "${MACHINE_ARCH}"
 
-COMPATIBLE_MACHINE = "bre2zet2c|sf128|sf138|sf3038|alphatriplehd|mbtwinplus"
+COMPATIBLE_MACHINE = "^(bre2zet2c|sf128|sf138|sf3038|alphatriplehd|mbtwinplus)$"
 
 SRC = "20170220"
 
