@@ -60,7 +60,6 @@ IMAGE_CMD_ubi_append = "\
     "
 
 MACHINE_FEATURES += "alsa 3dtv switchoff hdmicec blindscan-tbs textlcd videoenhancement RCA HDMI"
-#MACHINE_FEATURES += "bootsplash"
 
 BOOTLOGO_FILENAME = "splash.bin"
 
