@@ -1,5 +1,5 @@
 # We know about rtc
-require conf/machine/include/build-extras.inc
+MACHINE_FEATURES_BACKFILL_CONSIDERED += "rtc"
 
 BOX_BRAND = "broadmedia"
 
@@ -19,7 +19,7 @@ MACHINE_EXTRA_RRECOMMENDS += "\
     ${@bb.utils.contains("GST_VERSION", "1.0", "gstreamer1.0-plugin-dvbmediasink", "gst-plugin-dvbmediasink", d)} \
     "
 
-require conf/machine/include/autoload-filesystems.inc
+KERNEL_MODULE_AUTOLOAD += "xfs"
 
 TARGET_ARCH = "mipsel"
 DEFAULTTUNE = "mips32el"
