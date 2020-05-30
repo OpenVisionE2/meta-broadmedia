@@ -7,7 +7,7 @@ COMPATIBLE_MACHINE = "^(bre2zet2c|sf128|sf138|sf3038|alphatriplehd|mbtwinplus)$"
 
 SRC = "20170220"
 
-inherit kernel machine_kernel_pr
+inherit kernel machine_kernel_pr samba_change_dialect
 
 KERNEL_RELEASE = "4.1.24"
 
