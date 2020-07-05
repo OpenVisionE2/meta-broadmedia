@@ -7,8 +7,6 @@ PACKAGE_ARCH = "${MACHINE_ARCH}"
 
 PV = "${KV}+${SRCDATE}"
 
-MACHINETYPE = "${MACHINE}"
-
 SRC_URI = "http://source.mynonpublic.com/broadmedia/${MACHINETYPE}-drivers-${KV}-${GCCREV}-${SRCDATE}.zip"
 
 S = "${WORKDIR}"
