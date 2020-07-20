@@ -55,7 +55,7 @@ IMAGE_CMD_ubi_append = "\
     rm -Rf ${IMAGEDIR}; \
     "
 
-MACHINE_FEATURES += "alsa switchoff hdmicec blindscan-tbs textlcd videoenhancement"
+MACHINE_FEATURES += "alsa switchoff hdmicec blindscan-tbs textlcd videoenhancement HDMI RCA"
 
 # Broken bootloader can only flash around 100 MB
 FLASHSIZE = "96"
