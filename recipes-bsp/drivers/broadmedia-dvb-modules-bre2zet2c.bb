@@ -1,4 +1,3 @@
-KV = "4.1.24"
 SRCDATE = "20170623"
 
 require broadmedia-dvb-modules.inc

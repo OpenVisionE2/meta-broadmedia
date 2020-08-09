@@ -1,4 +1,3 @@
-KV = "4.1.24"
 SRCDATE = "20170614"
 
 MACHINETYPE = "alphatriple"

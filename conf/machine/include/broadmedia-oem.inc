@@ -1,6 +1,8 @@
 # We know about rtc
 MACHINE_FEATURES_BACKFILL_CONSIDERED += "rtc"
 
+KERNELVERSION = "4.1.24"
+
 BOX_BRAND = "broadmedia"
 
 MTD_KERNEL = "mtd1"
@@ -15,12 +17,11 @@ MACHINE_EXTRA_RRECOMMENDS += "\
     gstreamer1.0-plugin-dvbmediasink \
     "
 
-
 TARGET_ARCH = "mipsel"
 DEFAULTTUNE = "mips32el"
 
 PREFERRED_PROVIDER_virtual/kernel = "linux-broadmedia"
-PREFERRED_VERSION_linux-broadmedia = "4.1.24"
+PREFERRED_VERSION_linux-broadmedia = "${KERNELVERSION}"
 
 PREFERRED_PROVIDER_virtual/blindscan-dvbs = "broadmedia-blindscan-utils"
 PREFERRED_PROVIDER_virtual/blindscan-dvbc = "broadmedia-blindscan-utils"
