@@ -8,7 +8,6 @@ PACKAGE_ARCH = "${MACHINE_ARCH}"
 
 GCCREV = "6.3.0"
 
-KV = "${KERNELVERSION}"
 
 PV = "${KV}+${SRCDATE}"
 
