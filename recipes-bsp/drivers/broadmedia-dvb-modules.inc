@@ -8,7 +8,6 @@ PACKAGE_ARCH = "${MACHINE_ARCH}"
 
 GCCREV = "6.3.0"
 
-
 PV = "${KV}+${SRCDATE}"
 
 SRC_URI = "http://source.mynonpublic.com/broadmedia/${MACHINETYPE}-drivers-${KV}-${GCCREV}-${SRCDATE}.zip"
@@ -18,9 +17,6 @@ S = "${WORKDIR}"
 INHIBIT_PACKAGE_STRIP = "1"
 
 do_compile() {
-}
-
-do_populate_sysroot() {
 }
 
 do_install() {
