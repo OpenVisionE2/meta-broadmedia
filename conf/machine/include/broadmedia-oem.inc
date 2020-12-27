@@ -53,6 +53,7 @@ IMAGE_CMD_ubi_append = " \
 	rm -f ${DEPLOY_DIR_IMAGE}/*.ubi; \
 	rm -f ${DEPLOY_DIR_IMAGE}/*.ubifs; \
 	rm -Rf ${IMAGEDIR}; \
+	rm -Rf miraclebox; \
 	"
 
 MACHINE_FEATURES += "alsa switchoff hdmicec blindscan-tbs textlcd videoenhancement HDMI RCA"
